@@ -4,15 +4,15 @@
   "private": true,
   "dependencies": {
     "@aws-amplify/ui-react": "^3.6.1",
-    "aws-amplify": "^5.3.27",
+    "aws-amplify": "4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-  "start": "yarn react-scripts start",
-  "build": "yarn react-scripts build",
-  "test": "yarn react-scripts test",
-  "eject": "yarn react-scripts eject"
-}
+    "start": "yarn react-scripts start",
+    "build": "yarn react-scripts build",
+    "test": "yarn react-scripts test",
+    "eject": "yarn react-scripts eject"
+  }
 }
