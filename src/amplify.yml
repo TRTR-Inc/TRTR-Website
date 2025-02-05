@@ -1,0 +1,18 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Creating aws-exports.js"
+        - printf "const awsConfig = {\n aws_project_region:'us-west-2',\n aws_cognito_identity_pool_id:'us-west-2:c88c42a1-b9c6-44cc-9835-e1f6b49da74f',\n aws_user_pools_id:'us-west-2_h3ytICmgf',\n aws_user_pools_web_client_id:'2v4ft29the2kj8lc1v7dn9nnfqk'\n};\nexport default awsConfig;" > src/aws-exports.js
+        - yarn install
+    build:
+      commands:
+        - yarn build
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - .yarn/cache
