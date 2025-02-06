@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Auth from "../components/Auth/Auth";
-import "../styles/homepage.css";
+import "../styles/Homepage.css";
 
 function Home() {
   const [showAuth, setShowAuth] = useState(false);
