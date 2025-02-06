@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
-import "./styles/global.css"; // Ensure your styles are loaded
+import "../../styles/global.css"; // Ensure your styles are loaded
 
 const App = () => {
   return (
