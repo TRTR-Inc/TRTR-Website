@@ -1,6 +1,6 @@
 import './index.css';  // If using plain CSS
 import 'tailwindcss/tailwind.css'; // If using Tailwind
-import 'bootstrap/dist/css/bootstrap.min.css'; // If using Bootstrap
+//import 'bootstrap/dist/css/bootstrap.min.css'; // If using Bootstrap
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
